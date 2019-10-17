@@ -15,7 +15,7 @@ assume your source code directory is `$DQSF`
   Then run the code `./DQSF/Features/SSMG.m` to calculate the SMM features.  
 ## Training
 1. Download [training data](), and extract it to `./DQSF/Dataset/`
-2. Download [initial model]() and put it into `./DQSF/Network/Train/Model/`
+2. Download [initial model](http://www.robots.ox.ac.uk/~vgg/software/very_deep/caffe/VGG_ILSVRC_16_layers.caffemodel) and put it into `./DQSF/Network/Train/Model/`
 3. Start to train with `sh finetune.sh`.
 ## Testing
 1. Download [pretrained model](aaa) `./DQSF/Network/Test/tesDemo.m`;
