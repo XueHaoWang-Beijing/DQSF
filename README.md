@@ -2,11 +2,6 @@
 
 This is a Caffe implementation of our TIP 2019 paper.
 ## Prerequisites
-1. [Caffe](https://github.com/BVLC/caffe)  
-2. [CUDA10](https://developer.nvidia.com/cuda-downloads)  
-3. [CUDNN7.5](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/)  
-4. [Matlab2016b](https://www.mathworks.com/)
-
 |[Caffe](https://github.com/BVLC/caffe)|[CUDA10](https://developer.nvidia.com/cuda-downloads)|[CUDNN7.5](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/)|[Matlab2016b](https://www.mathworks.com/)|
 
 ## Usage
