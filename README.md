@@ -2,7 +2,7 @@
 
 This is a Caffe implementation of our TIP 2019 paper.
 ## Prerequisites
-|[Caffe](https://github.com/BVLC/caffe)|[CUDA10](https://developer.nvidia.com/cuda-downloads)|[CUDNN7.5](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/)|[Matlab2016b](https://www.mathworks.com/)|
+| [Caffe](https://github.com/BVLC/caffe) | [CUDA10](https://developer.nvidia.com/cuda-downloads)| [CUDNN7.5](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/) | [Matlab2016b](https://www.mathworks.com/) |
 
 ## Usage
 1. Clone this code by `git clone https://github.com/XueHaoWang-Beijing/DQSF.git --recursive`,  
