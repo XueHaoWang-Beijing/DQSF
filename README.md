@@ -2,9 +2,9 @@
 
 This is a Caffe implementation of our TIP 2019 paper.
 # Prerequisites
-× Caffe
+1. Caffe
 
-×CUDA
+× CUDA
 
-×CUDNN
+× CUDNN
 
