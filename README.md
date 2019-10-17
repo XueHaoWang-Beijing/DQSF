@@ -8,8 +8,15 @@ This is a Caffe implementation of our TIP 2019 paper.
 4. [Matlab2016b](https://www.mathworks.com/)
 ## Usage
 1. Clone this code by `git clone https://github.com/XueHaoWang-Beijing/DQSF.git --recursive`, assume your source code directory is `$DQSF`
-2. Calculate our proposed depth quality-aware features.
+2. Calculate our proposed depth quality-aware features (or download them directly from [here](aaa)).
   * For RQ and SM features, run the code `./DQSF/Features/RDQ.m`.
   * For SMM features, run the code `./DQSF/Features/SMM_Network/Test/tesDemo.m` and `./DQSF/Features/SMM_Network/Test/tesDemor.m` to generate the RGBD and RGBDrand predictions.
   Then run the code `./DQSF/Features/SSMG.m` to calculate the SMM features.  
-Also, we provide our proposed depth quality-aware features, you can download [them](abc) directly instead of calculating them by yourself.
+## Training
+1. Download [training data](), and extract it to `./DQSF/Dataset/`
+2. Download [initial model]() and put it into `./DQSF/Network/Train/Model/`
+3. Start to train with `sh finetune.sh`.
+## Testing
+1. Download [pretrained model](aaa) `./DQSF/Network/Test/tesDemo.m`;
+2. Generate saliency maps by run the code `./DQSF/Network/Test/tesDemo.m`;
+
