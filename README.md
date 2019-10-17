@@ -12,4 +12,4 @@ This is a Caffe implementation of our TIP 2019 paper.
   * For RQ and SM features, run the code `./DQSF/Features/RDQ.m`.
   * For SMM features, run the code `./DQSF/Features/SMM_Network/Test/tesDemo.m` and `./DQSF/Features/SMM_Network/Test/tesDemor.m` to generate the RGBD and RGBDrand predictions.
   Then run the code `./DQSF/Features/SSMG.m` to calculate the SMM features.  
-  Also, we provide our proposed depth quality-aware features, you can download [them](abc) directly instead of calculating them by yourself.
+Also, we provide our proposed depth quality-aware features, you can download [them](abc) directly instead of calculating them by yourself.
