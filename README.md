@@ -7,10 +7,11 @@ This is a Caffe implementation of our TIP 2019 paper.
 3. [CUDNN7.5](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/)  
 4. [Matlab2016b](https://www.mathworks.com/)
 ## Usage
-1. Clone this code by `git clone https://github.com/XueHaoWang-Beijing/DQSF.git --recursive`, assume your source code directory is `$DQSF`
+1. Clone this code by `git clone https://github.com/XueHaoWang-Beijing/DQSF.git --recursive`,  
+assume your source code directory is `$DQSF`
 2. Calculate our proposed depth quality-aware features (or download them directly from [here](aaa)).
   * For RQ and SM features, run the code `./DQSF/Features/RDQ.m`.
-  * For SMM features, run the code `./DQSF/Features/SMM_Network/Test/tesDemo.m` and `./DQSF/Features/SMM_Network/Test/tesDemor.m` to generate the RGBD and RGBDrand predictions.
+  * For SMM features, run the code `./DQSF/Features/SMM_Network/Test/tesDemo.m` and `./DQSF/Features/SMM_Network/Test/tesDemor.m` to generate the RGBD and RGBDrand predictions.  
   Then run the code `./DQSF/Features/SSMG.m` to calculate the SMM features.  
 ## Training
 1. Download [training data](), and extract it to `./DQSF/Dataset/`
