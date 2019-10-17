@@ -14,10 +14,10 @@ assume your source code directory is `$DQSF`
   * For SMM features, run the code `./DQSF/Features/SMM_Network/Test/tesDemo.m` and `./DQSF/Features/SMM_Network/Test/tesDemor.m` to generate the RGBD and RGBDrand predictions.  
   Then run the code `./DQSF/Features/SSMG.m` to calculate the SMM features.  
 ## Training
-1. Download [training data](), and extract it to `./DQSF/Dataset/`
+1. Download training data([Google drive]() or [Baiduyun PW:4w6j](https://pan.baidu.com/s/1vumhbAUJqCSslhPEIMyY4g)), and extract it to `./DQSF/Dataset/`
 2. Download [initial model](http://www.robots.ox.ac.uk/~vgg/software/very_deep/caffe/VGG_ILSVRC_16_layers.caffemodel) and put it into `./DQSF/Network/Train/Model/`
 3. Start to train with `sh finetune.sh`.
 ## Testing
-1. Download [pretrained model](aaa) `./DQSF/Network/Test/tesDemo.m`;
+1. Download [pretrained model](https://drive.google.com/open?id=1VaPl5lUkPW_uMlZuZ6hN-pRzxgdTXd4I) `./DQSF/Network/Test/tesDemo.m`;
 2. Generate saliency maps by run the code `./DQSF/Network/Test/tesDemo.m`;
 
