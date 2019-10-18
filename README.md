@@ -16,6 +16,6 @@ https://drive.google.com/file/d/1TkEpsfspPOphzT_qitYWUPPscC9vZsXX/view?usp=shari
 2. Download [initial model](http://www.robots.ox.ac.uk/~vgg/software/very_deep/caffe/VGG_ILSVRC_16_layers.caffemodel) and put it into `./DQSF/Network/Train/Model/`
 3. Start to train with `sh ./DQSF/Network/Train/finetune.sh`.
 ## Testing
-1. Download [pretrained model](https://drive.google.com/open?id=1VaPl5lUkPW_uMlZuZ6hN-pRzxgdTXd4I) and [RGBD datasets](https://drive.google.com/file/d/1tmGjqfIAO2cTDZ8QmHXsUlBfZPTbtVeU/view?usp=sharing)
+1. Download [pretrained model](https://drive.google.com/open?id=1VaPl5lUkPW_uMlZuZ6hN-pRzxgdTXd4I) and [RGBD datasets](https://drive.google.com/file/d/1tmGjqfIAO2cTDZ8QmHXsUlBfZPTbtVeU/view?usp=sharing) into the `./DQSF/Network/Test/model/` and `./DQSF/Network/Test/data/` separately
 2. Generate saliency maps by run the code `./DQSF/Network/Test/tesDemo.m`
 
