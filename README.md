@@ -6,7 +6,7 @@
 ## Usage
 1. Clone this code by `git clone https://github.com/XueHaoWang-Beijing/DQSF.git --recursive`,  
 assume your source code directory is `$DQSF/`
-2. Calculate our proposed depth quality-aware features (or download them directly from Google drive [Testing set](https://drive.google.com/file/d/1w6h6C9NkQhFqADo-PXFK31jy3y3xs1os/view?usp=sharing) [Training set](
+2. Calculate our proposed depth quality-aware features (or download them directly from Google drive [For Testing set](https://drive.google.com/file/d/1w6h6C9NkQhFqADo-PXFK31jy3y3xs1os/view?usp=sharing) [For Training set](
 https://drive.google.com/file/d/1TkEpsfspPOphzT_qitYWUPPscC9vZsXX/view?usp=sharing) or [Baiduyun PW:zeht](https://pan.baidu.com/s/1Vc5u3gAHMI5iJhf8-Cm_ow) ).
   * For RQ and SM features, run the code `./DQSF/Features/RDQ.m`.
   * For SMM features, run the code `./DQSF/Features/SMM_Network/Test/tesDemo.m` and `./DQSF/Features/SMM_Network/Test/tesDemor.m` to generate the RGBD and RGBDrand predictions.  
